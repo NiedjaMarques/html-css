@@ -60,9 +60,12 @@
     </main>
     <script>
         function mudouTamanho() {
+            var itens= document.getElementById("itens");
             if (window.innerwidth >= 768) {
                 itens.style.display = 'block'
+                console.log("up");
             } else {
+                console.log("down");
                 itens.style.display = 'none'
             }
         }
