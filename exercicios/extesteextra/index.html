@@ -18,13 +18,13 @@
                     <img class="h-10" src="imagens/logo.png" alt="logo do site">
                 </span>
 
-                <span class="cursor-pointer md:hidden">
+                <span id="icone" onclick="menu()" class="cursor-pointer md:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg>        
                 </span>
 
             </div>
 
-            <ul class="flex hidden md:block md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 right-[-400px] transition-all ease-in-duration-700 md:opacity-100"> <!---->
+            <ul id="lista" class="flex hidden md:block md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 right-[-400px] transition-all ease-in-duration-700 md:opacity-0"> <!---->
                 <li>
                     <a href="#">Home</a>
                 </li>
@@ -54,6 +54,11 @@
 
         </nav>
 
-    </header>    
+    </header>  
+    
+    
+
+
+    <script src="interatividade/javascript.js"></script>
 </body>
 </html>
